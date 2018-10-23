@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PFAudioLib_Example' do
+  pod 'PFAudioLib', :path => '../'
+
+  target 'PFAudioLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
