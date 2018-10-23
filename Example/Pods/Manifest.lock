@@ -1,0 +1,16 @@
+PODS:
+  - PFAudioLib (0.1.0)
+
+DEPENDENCIES:
+  - PFAudioLib (from `../`)
+
+EXTERNAL SOURCES:
+  PFAudioLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PFAudioLib: ca85ddd67ffc918c9605520476647bc4dfc161d8
+
+PODFILE CHECKSUM: 58a2b8d4abf46c7dd3c3b949ea71dbbc2ab43c22
+
+COCOAPODS: 1.5.3

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1EE227786D109A3842929E36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1EE227786D109A3842929E36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		59BC565C0D8144A2F67AF9BB /* Pods_PFAudioLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PFAudioLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* PFAudioLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFAudioLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,12 +58,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		65BD4F8CD6F9A6B61602B897 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		65BD4F8CD6F9A6B61602B897 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		65E4BEA7ACA3527239FFC6D3 /* Pods_PFAudioLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PFAudioLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B55587E7E305D9631BD5C642 /* Pods-PFAudioLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PFAudioLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PFAudioLib_Tests/Pods-PFAudioLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DE7A2373E7520AFBC52E8E03 /* PFAudioLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PFAudioLib.podspec; path = ../PFAudioLib.podspec; sourceTree = "<group>"; };
+		DE7A2373E7520AFBC52E8E03 /* PFAudioLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PFAudioLib.podspec; path = ../PFAudioLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EEB85274F1A6FF02946A46E3 /* Pods-PFAudioLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PFAudioLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PFAudioLib_Tests/Pods-PFAudioLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F35F02EFDF9C16E36E1CBCC4 /* Pods-PFAudioLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PFAudioLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PFAudioLib_Example/Pods-PFAudioLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FD2EAC4E416B3AA6C3924DE0 /* Pods-PFAudioLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PFAudioLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PFAudioLib_Example/Pods-PFAudioLib_Example.debug.xcconfig"; sourceTree = "<group>"; };

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PFAudioLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PFAudioLib.'
+  s.summary          = '音频文件转换工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '音频文件转换工具 支持pcm,mp3,arm,wav文件格式的转换'
 
   s.homepage         = 'https://github.com/qq631192328/PFAudioLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
