@@ -7,17 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1B29020E3B33805652379C88058E17 /* PFAudioLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DC633485973D3B72761D019639EA4F /* PFAudioLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		120E539650A340DE5C52736C32DE0D71 /* PFAudio.mm in Sources */ = {isa = PBXBuildFile; fileRef = D35AC48B17ECB3D0CFCE696090B4E31A /* PFAudio.mm */; };
 		2035AD74158FC26CE9B6A28C0194E1BA /* Pods-PFAudioLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC92BF617C653A70AEE5ABC5A411876 /* Pods-PFAudioLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2202B113707EBCC63157191DE3BD3069 /* PFAudioLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0426CFF7C818D2BACE88D5169058F280 /* PFAudioLib-dummy.m */; };
-		271CDA78496ED1475D9798DB5A2934B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		271CDA78496ED1475D9798DB5A2934B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E786AFAE5918087F76FC76DC7E990CE /* Foundation.framework */; };
 		2B07F412AFB409EC68C441E547C056FF /* Pods-PFAudioLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E6A4382EB0014E4396FBB804C1221F /* Pods-PFAudioLib_Tests-dummy.m */; };
-		3955114B1AD6B2AB9B57FEF8B3DEEB3C /* PFAudio.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9EA4927078C8542864BAC67CC0F06 /* PFAudio.mm */; };
+		2E27E314676FC99D05361E5930383D6E /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA5637B28C2A820D2D71C6ECDFBE60E /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		421AB9D177885C5C5C5746B7AD984764 /* voiceAmrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E6BB822E2FA011C2A4EF28566EA1035 /* voiceAmrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60A9826FBE88353197E1CF4B58D7AC7E /* Pods-PFAudioLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F71D54B2A455AE8837071EB486B367 /* Pods-PFAudioLib_Example-dummy.m */; };
-		63FFE4884BB26B27F808B3AB46CF3315 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7708369610BF41EC8FE2E7A857DD4898 /* PFAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = E97B25C2B7C74758BE8F085130F30787 /* PFAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D96B2FE149BF25947B79A9EE51DD41E /* PFAudioLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2801BA15C7256CB9D558F264BB90C012 /* PFAudioLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDD3A74EF468823792F9B95315C4FFE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		63FFE4884BB26B27F808B3AB46CF3315 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E786AFAE5918087F76FC76DC7E990CE /* Foundation.framework */; };
+		6A3A9D02AF913A8A831433E5C38BED26 /* libmp3lame.a in Sources */ = {isa = PBXBuildFile; fileRef = 69EEE8F3F2C90663263EFDE18BAFBDC8 /* libmp3lame.a */; };
+		7492B89E8684CA1F640FC133FE4E1ED3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E786AFAE5918087F76FC76DC7E990CE /* Foundation.framework */; };
+		7963DA06ABCF75528E3A00545CBD375A /* PFAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6081A421EDEBEE75AA667AA234E262 /* PFAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83FBE8FF1CF941C7CA53F6B92F0465EE /* PFAudioLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E030D30E749023182D89322023F70531 /* PFAudioLib-dummy.m */; };
+		88BFBE6F3EC5B0EB5F30C19A11FBB5CE /* lame.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A87F6581B253DE6B6403AD2CF664DE6 /* lame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC8F8C09DD121F9CFCD572F633D3B9A0 /* libopencore-amrwb.a in Sources */ = {isa = PBXBuildFile; fileRef = F6F31EC524A0B8155E2000366841FE06 /* libopencore-amrwb.a */; };
+		B3022C822778B256C87CC3AC83D4A007 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = E3318A556A932DCBB79B7EB397D41282 /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD18AE56D7BB48DEDB3272F0AE1A52B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0378C8C26FA78A12D8D9C975CBD0D8 /* AVFoundation.framework */; };
+		C433CE2E0659883506212604D14D7FF0 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = C688B00B61712684B07E6D0AD2FF1BFD /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA541139E017B8227CBD188E77D6DA4E /* Pods-PFAudioLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F05FA47E53E4DA24921D65AC046FD6 /* Pods-PFAudioLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1BBEA662FBC4938FFFFE78385E7E583 /* voiceAmrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A90012DFDF4054527BCE4CADAC2238F /* voiceAmrFileCodec.mm */; };
+		F8B02436A6400206B7C3157A4E991C57 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = D730FF58BA8DD7C11E96EEFE6D5560F0 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBCAC043164F0B0203FCE1BF8682908B /* libopencore-amrnb.a in Sources */ = {isa = PBXBuildFile; fileRef = 24AA7A178ACDAE9086AB86701A1F91B9 /* libopencore-amrnb.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,46 +43,57 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F6AE35BE4D47594D04441C99B03A1E5D;
+			remoteGlobalIDString = C35D1E0EA4D29039F939E39FFC71B958;
 			remoteInfo = PFAudioLib;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0426CFF7C818D2BACE88D5169058F280 /* PFAudioLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PFAudioLib-dummy.m"; sourceTree = "<group>"; };
 		06E6A4382EB0014E4396FBB804C1221F /* Pods-PFAudioLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PFAudioLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		0D1F2DD809231FE23F08A24514A947EF /* PFAudioLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PFAudioLib.xcconfig; sourceTree = "<group>"; };
 		0D35F0934C43DC45AD34FD79C71F9F59 /* Pods-PFAudioLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PFAudioLib_Tests.modulemap"; sourceTree = "<group>"; };
-		1D58DD4EC45E3D4F97E336CC1FF06574 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1A90012DFDF4054527BCE4CADAC2238F /* voiceAmrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = voiceAmrFileCodec.mm; sourceTree = "<group>"; };
+		1E6BB822E2FA011C2A4EF28566EA1035 /* voiceAmrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = voiceAmrFileCodec.h; sourceTree = "<group>"; };
+		24AA7A178ACDAE9086AB86701A1F91B9 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
 		24C5C94BD9FA385FEB9D13D94D3748CF /* Pods-PFAudioLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PFAudioLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2801BA15C7256CB9D558F264BB90C012 /* PFAudioLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PFAudioLib-umbrella.h"; sourceTree = "<group>"; };
+		2C0378C8C26FA78A12D8D9C975CBD0D8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		324F686ACA1619A782E35EE03AE2F796 /* Pods-PFAudioLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PFAudioLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		359E7A9504F5A36EBBC3B9B960C6171C /* Pods-PFAudioLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PFAudioLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		39EB31DF224AAAB725C388D4123D0E45 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A701545F30FE363527D549303B2867F /* Pods-PFAudioLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PFAudioLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		61047722D6FA4EAB7B608DB31BE8AD7B /* PFAudioLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PFAudioLib-prefix.pch"; sourceTree = "<group>"; };
-		669B01189CEB040CBED95318850BDE86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AF9EA4927078C8542864BAC67CC0F06 /* PFAudio.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = PFAudio.mm; path = PFAudioLib/Classes/PFAudio.mm; sourceTree = "<group>"; };
+		69EEE8F3F2C90663263EFDE18BAFBDC8 /* libmp3lame.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		752259E70C1ADE5B4BE313776ADE0EC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E786AFAE5918087F76FC76DC7E990CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8085615EBFBFB8AE1602F90AA76C30B8 /* Pods_PFAudioLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PFAudioLib_Example.framework; path = "Pods-PFAudioLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F05FA47E53E4DA24921D65AC046FD6 /* Pods-PFAudioLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PFAudioLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		8647C9D99C1402A8F41FEB3A0D87BB7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9376DE63345B7F31A7A400A54B8AA087 /* PFAudioLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PFAudioLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8FE17EC14FB71E69CF4349E978AFBA6D /* PFAudioLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PFAudioLib-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94B58135C51490295959E099D03CCC3D /* Pods-PFAudioLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PFAudioLib_Example.modulemap"; sourceTree = "<group>"; };
+		9A87F6581B253DE6B6403AD2CF664DE6 /* lame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
 		9DC8366A3883C3748B53E086FEAAA76E /* Pods-PFAudioLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PFAudioLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A0F71D54B2A455AE8837071EB486B367 /* Pods-PFAudioLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PFAudioLib_Example-dummy.m"; sourceTree = "<group>"; };
+		A11825AAEC944607596C479710FA44A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A50015EFA6E2A731A7998A836B78C822 /* Pods-PFAudioLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PFAudioLib_Example-resources.sh"; sourceTree = "<group>"; };
 		AF91995FDFEF7D91B082AAD160EB3D83 /* Pods-PFAudioLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PFAudioLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B4951E0BD6294B6F1B34CBD189433282 /* Pods-PFAudioLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PFAudioLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B911784E3F6A7FBE92A2DE4FCD35AB17 /* PFAudioLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PFAudioLib.xcconfig; sourceTree = "<group>"; };
 		BA0C34FBD0D3467DB07E8E3E61FDD19A /* Pods-PFAudioLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PFAudioLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		BA5F8AADF62B571B92CC39CC15E11215 /* Pods_PFAudioLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PFAudioLib_Tests.framework; path = "Pods-PFAudioLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFB7CDE306AE8BD3E565AD7963AE442D /* PFAudioLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PFAudioLib.modulemap; sourceTree = "<group>"; };
+		C5DC633485973D3B72761D019639EA4F /* PFAudioLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PFAudioLib-umbrella.h"; sourceTree = "<group>"; };
+		C688B00B61712684B07E6D0AD2FF1BFD /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		CAA5637B28C2A820D2D71C6ECDFBE60E /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		CB6081A421EDEBEE75AA667AA234E262 /* PFAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFAudio.h; path = PFAudioLib/Classes/PFAudio.h; sourceTree = "<group>"; };
 		D1692A9139F0E0994D6D038123B597D4 /* Pods-PFAudioLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PFAudioLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D35AC48B17ECB3D0CFCE696090B4E31A /* PFAudio.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = PFAudio.mm; path = PFAudioLib/Classes/PFAudio.mm; sourceTree = "<group>"; };
+		D730FF58BA8DD7C11E96EEFE6D5560F0 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
 		D7C7CDB714E8FDBCCEF23516C5CA4C77 /* PFAudioLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PFAudioLib.framework; path = PFAudioLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1F77D4809CA4FE45F984190F2D0E7A /* PFAudioLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PFAudioLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E030D30E749023182D89322023F70531 /* PFAudioLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PFAudioLib-dummy.m"; sourceTree = "<group>"; };
+		E3318A556A932DCBB79B7EB397D41282 /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
 		E656C2BA4EFF7CA85C8EFFCD243F16BB /* Pods-PFAudioLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PFAudioLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E97B25C2B7C74758BE8F085130F30787 /* PFAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFAudio.h; path = PFAudioLib/Classes/PFAudio.h; sourceTree = "<group>"; };
 		ED416ACF1A7F9A6FB0C59BF7DE994483 /* Pods-PFAudioLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PFAudioLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F32DE3CABE3804129E6BD174C102EE54 /* PFAudioLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PFAudioLib.modulemap; sourceTree = "<group>"; };
+		F6F31EC524A0B8155E2000366841FE06 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		FC7520275897F083E5016C74C20FA81A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FEAAF6DAB3A4CC3D04076DBB1C420DDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEC92BF617C653A70AEE5ABC5A411876 /* Pods-PFAudioLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PFAudioLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,11 +107,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9953807DD0793A301C811CB462ED685B /* Frameworks */ = {
+		B15548AE5D76C4CFDBDDAD63B8F135E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDD3A74EF468823792F9B95315C4FFE4 /* Foundation.framework in Frameworks */,
+				BD18AE56D7BB48DEDB3272F0AE1A52B7 /* AVFoundation.framework in Frameworks */,
+				7492B89E8684CA1F640FC133FE4E1ED3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,14 +127,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11C18E7058BD90EC2B803E74A7CBE2E7 /* Pod */ = {
+		151724B63CA8900090E74680751081BF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1D58DD4EC45E3D4F97E336CC1FF06574 /* LICENSE */,
-				9376DE63345B7F31A7A400A54B8AA087 /* PFAudioLib.podspec */,
-				39EB31DF224AAAB725C388D4123D0E45 /* README.md */,
+				2C0378C8C26FA78A12D8D9C975CBD0D8 /* AVFoundation.framework */,
+				7E786AFAE5918087F76FC76DC7E990CE /* Foundation.framework */,
 			);
-			name = Pod;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		17DC89B04C327CD3CEAF6F74DAA7EA74 /* Products */ = {
@@ -124,34 +146,67 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		38349279D95B38F2B36D8257155FB6DC /* Support Files */ = {
+		19B91C8B48DAE397381AD924796B3F5F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				669B01189CEB040CBED95318850BDE86 /* Info.plist */,
-				BFB7CDE306AE8BD3E565AD7963AE442D /* PFAudioLib.modulemap */,
-				B911784E3F6A7FBE92A2DE4FCD35AB17 /* PFAudioLib.xcconfig */,
-				0426CFF7C818D2BACE88D5169058F280 /* PFAudioLib-dummy.m */,
-				61047722D6FA4EAB7B608DB31BE8AD7B /* PFAudioLib-prefix.pch */,
-				2801BA15C7256CB9D558F264BB90C012 /* PFAudioLib-umbrella.h */,
+				3B0854A011FAAE0066AB87D32C66DA06 /* PFAudioLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3B0854A011FAAE0066AB87D32C66DA06 /* PFAudioLib */ = {
+			isa = PBXGroup;
+			children = (
+				CB6081A421EDEBEE75AA667AA234E262 /* PFAudio.h */,
+				D35AC48B17ECB3D0CFCE696090B4E31A /* PFAudio.mm */,
+				FDE4695283A844A5C669813144A029BE /* Frameworks */,
+				C806A5FEF511F952C5676CEF1A12E7E4 /* lame */,
+				9084EB125F9F7FB1F0C285AB958A9B6D /* Pod */,
+				560D3B7FAAA866EBADB06A6B78CC0748 /* Support Files */,
+				FEE1C65F61D6CBCD6E52E98B733C87E6 /* VoiceConvert */,
+			);
+			name = PFAudioLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				151724B63CA8900090E74680751081BF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		560D3B7FAAA866EBADB06A6B78CC0748 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				752259E70C1ADE5B4BE313776ADE0EC2 /* Info.plist */,
+				F32DE3CABE3804129E6BD174C102EE54 /* PFAudioLib.modulemap */,
+				0D1F2DD809231FE23F08A24514A947EF /* PFAudioLib.xcconfig */,
+				E030D30E749023182D89322023F70531 /* PFAudioLib-dummy.m */,
+				8FE17EC14FB71E69CF4349E978AFBA6D /* PFAudioLib-prefix.pch */,
+				C5DC633485973D3B72761D019639EA4F /* PFAudioLib-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/PFAudioLib";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		7A75DE8B31E82B9002845659DAD1839A /* amrwapper */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				1E6BB822E2FA011C2A4EF28566EA1035 /* voiceAmrFileCodec.h */,
+				1A90012DFDF4054527BCE4CADAC2238F /* voiceAmrFileCodec.mm */,
 			);
-			name = iOS;
+			name = amrwapper;
+			path = amrwapper;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E3C7FB5EAA5645A6C9F3B7ABDE259FFC /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				19B91C8B48DAE397381AD924796B3F5F /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				17DC89B04C327CD3CEAF6F74DAA7EA74 /* Products */,
 				9E33865124D6EC70CB0F7DF8DC0F3E8D /* Targets Support Files */,
 			);
@@ -175,16 +230,24 @@
 			path = "Target Support Files/Pods-PFAudioLib_Tests";
 			sourceTree = "<group>";
 		};
-		8533FFDEED115896FB14870C56910DB5 /* PFAudioLib */ = {
+		8818B98C4501A3429B883FFF90B01EF7 /* opencore-amrnb */ = {
 			isa = PBXGroup;
 			children = (
-				E97B25C2B7C74758BE8F085130F30787 /* PFAudio.h */,
-				6AF9EA4927078C8542864BAC67CC0F06 /* PFAudio.mm */,
-				11C18E7058BD90EC2B803E74A7CBE2E7 /* Pod */,
-				38349279D95B38F2B36D8257155FB6DC /* Support Files */,
+				CAA5637B28C2A820D2D71C6ECDFBE60E /* interf_dec.h */,
+				E3318A556A932DCBB79B7EB397D41282 /* interf_enc.h */,
 			);
-			name = PFAudioLib;
-			path = ../..;
+			name = "opencore-amrnb";
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		9084EB125F9F7FB1F0C285AB958A9B6D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A11825AAEC944607596C479710FA44A6 /* LICENSE */,
+				DA1F77D4809CA4FE45F984190F2D0E7A /* PFAudioLib.podspec */,
+				FC7520275897F083E5016C74C20FA81A /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9E33865124D6EC70CB0F7DF8DC0F3E8D /* Targets Support Files */ = {
@@ -214,20 +277,44 @@
 			path = "Target Support Files/Pods-PFAudioLib_Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C0CD295AAA5697ADFEE20741D70CB5AF /* opencore-amrwb */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				C688B00B61712684B07E6D0AD2FF1BFD /* dec_if.h */,
+				D730FF58BA8DD7C11E96EEFE6D5560F0 /* if_rom.h */,
+			);
+			name = "opencore-amrwb";
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		C806A5FEF511F952C5676CEF1A12E7E4 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				9A87F6581B253DE6B6403AD2CF664DE6 /* lame.h */,
+				69EEE8F3F2C90663263EFDE18BAFBDC8 /* libmp3lame.a */,
+			);
+			name = lame;
+			path = PFAudioLib/Classes/lame;
+			sourceTree = "<group>";
+		};
+		FDE4695283A844A5C669813144A029BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E3C7FB5EAA5645A6C9F3B7ABDE259FFC /* Development Pods */ = {
+		FEE1C65F61D6CBCD6E52E98B733C87E6 /* VoiceConvert */ = {
 			isa = PBXGroup;
 			children = (
-				8533FFDEED115896FB14870C56910DB5 /* PFAudioLib */,
+				24AA7A178ACDAE9086AB86701A1F91B9 /* libopencore-amrnb.a */,
+				F6F31EC524A0B8155E2000366841FE06 /* libopencore-amrwb.a */,
+				7A75DE8B31E82B9002845659DAD1839A /* amrwapper */,
+				8818B98C4501A3429B883FFF90B01EF7 /* opencore-amrnb */,
+				C0CD295AAA5697ADFEE20741D70CB5AF /* opencore-amrwb */,
 			);
-			name = "Development Pods";
+			name = VoiceConvert;
+			path = PFAudioLib/Classes/VoiceConvert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,12 +328,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97BDB11F4B30CE3CBE2EB6906458DD8F /* Headers */ = {
+		87E8D8B610E085C7F945A22CA4365FAB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7708369610BF41EC8FE2E7A857DD4898 /* PFAudio.h in Headers */,
-				8D96B2FE149BF25947B79A9EE51DD41E /* PFAudioLib-umbrella.h in Headers */,
+				C433CE2E0659883506212604D14D7FF0 /* dec_if.h in Headers */,
+				F8B02436A6400206B7C3157A4E991C57 /* if_rom.h in Headers */,
+				2E27E314676FC99D05361E5930383D6E /* interf_dec.h in Headers */,
+				B3022C822778B256C87CC3AC83D4A007 /* interf_enc.h in Headers */,
+				88BFBE6F3EC5B0EB5F30C19A11FBB5CE /* lame.h in Headers */,
+				7963DA06ABCF75528E3A00545CBD375A /* PFAudio.h in Headers */,
+				0B1B29020E3B33805652379C88058E17 /* PFAudioLib-umbrella.h in Headers */,
+				421AB9D177885C5C5C5746B7AD984764 /* voiceAmrFileCodec.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +373,24 @@
 			productReference = 8085615EBFBFB8AE1602F90AA76C30B8 /* Pods_PFAudioLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		C35D1E0EA4D29039F939E39FFC71B958 /* PFAudioLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC953611825939D25C367B4EDE21A94 /* Build configuration list for PBXNativeTarget "PFAudioLib" */;
+			buildPhases = (
+				87E8D8B610E085C7F945A22CA4365FAB /* Headers */,
+				C2DB0F10F1D658DBA718C46027C7F955 /* Sources */,
+				B15548AE5D76C4CFDBDDAD63B8F135E4 /* Frameworks */,
+				7E46BB68DBFEA26ACE37C988A003DF38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PFAudioLib;
+			productName = PFAudioLib;
+			productReference = D7C7CDB714E8FDBCCEF23516C5CA4C77 /* PFAudioLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		F03B429607DDA3258A09CAE3E848795E /* Pods-PFAudioLib_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D95402E5E68A2FF004F6D3DA7599FB72 /* Build configuration list for PBXNativeTarget "Pods-PFAudioLib_Tests" */;
@@ -297,24 +408,6 @@
 			name = "Pods-PFAudioLib_Tests";
 			productName = "Pods-PFAudioLib_Tests";
 			productReference = BA5F8AADF62B571B92CC39CC15E11215 /* Pods_PFAudioLib_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F6AE35BE4D47594D04441C99B03A1E5D /* PFAudioLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 324FB62B25B0D7942DA5CEA2D1E42E0D /* Build configuration list for PBXNativeTarget "PFAudioLib" */;
-			buildPhases = (
-				97BDB11F4B30CE3CBE2EB6906458DD8F /* Headers */,
-				30426352211F07FC2A2EA30AE65F52CA /* Sources */,
-				9953807DD0793A301C811CB462ED685B /* Frameworks */,
-				5AEFA5DE9C15D124ED805B6683F15F4C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PFAudioLib;
-			productName = PFAudioLib;
-			productReference = D7C7CDB714E8FDBCCEF23516C5CA4C77 /* PFAudioLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -338,7 +431,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6AE35BE4D47594D04441C99B03A1E5D /* PFAudioLib */,
+				C35D1E0EA4D29039F939E39FFC71B958 /* PFAudioLib */,
 				03C844DCDD1E9ACCABAC9521A0975EA1 /* Pods-PFAudioLib_Example */,
 				F03B429607DDA3258A09CAE3E848795E /* Pods-PFAudioLib_Tests */,
 			);
@@ -353,7 +446,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AEFA5DE9C15D124ED805B6683F15F4C /* Resources */ = {
+		7E46BB68DBFEA26ACE37C988A003DF38 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,15 +463,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30426352211F07FC2A2EA30AE65F52CA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3955114B1AD6B2AB9B57FEF8B3DEEB3C /* PFAudio.mm in Sources */,
-				2202B113707EBCC63157191DE3BD3069 /* PFAudioLib-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BE03F24E0722C5EC6BE90EA8DC2FD1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,13 +479,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C2DB0F10F1D658DBA718C46027C7F955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3A9D02AF913A8A831433E5C38BED26 /* libmp3lame.a in Sources */,
+				FBCAC043164F0B0203FCE1BF8682908B /* libopencore-amrnb.a in Sources */,
+				AC8F8C09DD121F9CFCD572F633D3B9A0 /* libopencore-amrwb.a in Sources */,
+				120E539650A340DE5C52736C32DE0D71 /* PFAudio.mm in Sources */,
+				83FBE8FF1CF941C7CA53F6B92F0465EE /* PFAudioLib-dummy.m in Sources */,
+				E1BBEA662FBC4938FFFFE78385E7E583 /* voiceAmrFileCodec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		00FDB3BEDF06A6C6621F12F756A9ED33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PFAudioLib;
-			target = F6AE35BE4D47594D04441C99B03A1E5D /* PFAudioLib */;
+			target = C35D1E0EA4D29039F939E39FFC71B958 /* PFAudioLib */;
 			targetProxy = 9BAD6E39BBE7DEA38292714827FABE85 /* PBXContainerItemProxy */;
 		};
 		E48F90090EB63377A7B6795F960820DA /* PBXTargetDependency */ = {
@@ -413,6 +510,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		4EAA8CB51567A8E572A174BFDB0F4956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1F2DD809231FE23F08A24514A947EF /* PFAudioLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PFAudioLib/PFAudioLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PFAudioLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PFAudioLib/PFAudioLib.modulemap";
+				PRODUCT_MODULE_NAME = PFAudioLib;
+				PRODUCT_NAME = PFAudioLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -539,6 +666,37 @@
 			};
 			name = Release;
 		};
+		8DA2A3BDCAD4C1A0D392B9A99F5692B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1F2DD809231FE23F08A24514A947EF /* PFAudioLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PFAudioLib/PFAudioLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PFAudioLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PFAudioLib/PFAudioLib.modulemap";
+				PRODUCT_MODULE_NAME = PFAudioLib;
+				PRODUCT_NAME = PFAudioLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -602,67 +760,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		C66A4C7B2A49A86A036DB99FCB4A75BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B911784E3F6A7FBE92A2DE4FCD35AB17 /* PFAudioLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PFAudioLib/PFAudioLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PFAudioLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PFAudioLib/PFAudioLib.modulemap";
-				PRODUCT_MODULE_NAME = PFAudioLib;
-				PRODUCT_NAME = PFAudioLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E5082F157D7750CE37C54BAC0A1343AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B911784E3F6A7FBE92A2DE4FCD35AB17 /* PFAudioLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PFAudioLib/PFAudioLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PFAudioLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PFAudioLib/PFAudioLib.modulemap";
-				PRODUCT_MODULE_NAME = PFAudioLib;
-				PRODUCT_NAME = PFAudioLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		E6D87BA174442A716E9CE747765E1B30 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -743,20 +840,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		324FB62B25B0D7942DA5CEA2D1E42E0D /* Build configuration list for PBXNativeTarget "PFAudioLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C66A4C7B2A49A86A036DB99FCB4A75BF /* Debug */,
-				E5082F157D7750CE37C54BAC0A1343AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BA0C4098A08E05F1CA98DE36D06695E8 /* Build configuration list for PBXNativeTarget "Pods-PFAudioLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				699B2AE54474C1EB03854D32190111C6 /* Debug */,
 				E6D87BA174442A716E9CE747765E1B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC953611825939D25C367B4EDE21A94 /* Build configuration list for PBXNativeTarget "PFAudioLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAA8CB51567A8E572A174BFDB0F4956 /* Debug */,
+				8DA2A3BDCAD4C1A0D392B9A99F5692B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PFAudioLib/Classes/**/*"
+  "source_files": "PFAudioLib/Classes/**/**/*",
+  "vendored_libraries": "PFAudioLib/Classes/**/*.a",
+  "frameworks": "AVFoundation"
 }
