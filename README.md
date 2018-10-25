@@ -7,7 +7,7 @@
 
 ## Introduction
 
-这个个音频文件格式转换的工具
+音频文件格式的转换工具
 
 ## Example
 
