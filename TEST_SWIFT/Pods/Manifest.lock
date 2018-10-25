@@ -1,16 +1,16 @@
 PODS:
-  - PFAudioLib (0.1.1)
+  - PFAudioLib (0.1.2)
 
 DEPENDENCIES:
-  - PFAudioLib (from `../`)
+  - PFAudioLib (~> 0.1.2)
 
-EXTERNAL SOURCES:
-  PFAudioLib:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PFAudioLib
 
 SPEC CHECKSUMS:
-  PFAudioLib: bec3d67dfa38ac74ca3208171b0818455854842e
+  PFAudioLib: 3d85b77d2c79a3869ace7e4ab5a2b79c5d458c63
 
-PODFILE CHECKSUM: 45a7cc332818af23fc1cde97fad2cd456a0971d5
+PODFILE CHECKSUM: 3982ced46374b1d3052b5d26228345c8ec81c04b
 
 COCOAPODS: 1.5.3

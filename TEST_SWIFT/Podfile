@@ -1,6 +1,6 @@
 use_frameworks!
 
 target 'TEST_SWIFT' do
-  pod 'PFAudioLib', :path => '../'
-#  pod 'PFAudioLib'
+#  pod 'PFAudioLib', :path => '../'
+  pod 'PFAudioLib','~>0.1.2'
 end
