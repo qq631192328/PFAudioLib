@@ -8,6 +8,14 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+// 设置音频文件的属性
+PFAudio.shareInstance()?.attrs = self.configDic
+// 将pcm文件转换成amr
+PFAudio.shareInstance()?.pcm2Amr(recordFilePath, isDeleteSourchFile: false)
+// 将pcm文件转换成MP3
+PFAudio.shareInstance()?.pcm2Mp3(recordFilePath, isDeleteSourchFile: false)
+```
 
 ## Requirements
 
