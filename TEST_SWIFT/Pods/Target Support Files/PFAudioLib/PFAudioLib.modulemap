@@ -1,0 +1,6 @@
+framework module PFAudioLib {
+  umbrella header "PFAudioLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
