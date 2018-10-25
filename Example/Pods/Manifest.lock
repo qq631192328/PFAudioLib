@@ -1,5 +1,5 @@
 PODS:
-  - PFAudioLib (0.1.0)
+  - PFAudioLib (0.1.1)
 
 DEPENDENCIES:
   - PFAudioLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PFAudioLib: 25d398bd4d4eb964901f98edde4afa56fdfe3d0f
+  PFAudioLib: 9d411001a3965e61f511e74340632758d04172e1
 
 PODFILE CHECKSUM: 4a60f04985e6b79fd87599baf34c17b66ef904bb
 

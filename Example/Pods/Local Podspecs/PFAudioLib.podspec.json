@@ -1,6 +1,6 @@
 {
   "name": "PFAudioLib",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "音频文件转换工具",
   "description": "音频文件转换工具 支持pcm,mp3,arm,wav文件格式的转换",
   "homepage": "https://github.com/qq631192328/PFAudioLib",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/qq631192328/PFAudioLib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "PFAudioLib/Classes/**/**/*",
+  "source_files": "PFAudioLib/Classes/**/**/*.{h,m,mm}",
   "vendored_libraries": "PFAudioLib/Classes/**/*.a",
   "frameworks": "AVFoundation"
 }

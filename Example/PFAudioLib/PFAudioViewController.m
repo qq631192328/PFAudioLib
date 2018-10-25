@@ -7,6 +7,7 @@
 //
 
 #import "PFAudioViewController.h"
+//#import "PFAudio.h"
 
 @interface PFAudioViewController ()
 
@@ -17,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+//    [PFAudio amr2Wav:@"111" isDeleteSourchFile:TRUE];
 }
 
 - (void)didReceiveMemoryWarning

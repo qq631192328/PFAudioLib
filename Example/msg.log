@@ -1,0 +1,23 @@
+note: Using new build system
+note: Planning build
+note: Constructing build description
+Ld /Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/PFAudioLib.build/Release-iphoneos/PFAudioLib_Example.build/Objects-normal/arm64/PFAudioLib_Example normal arm64 (in target: PFAudioLib_Example)
+    cd /Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example
+    export IPHONEOS_DEPLOYMENT_TARGET=9.0
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk -L/Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/Release-iphoneos -F/Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/Release-iphoneos -F/Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/Release-iphoneos/PFAudioLib -filelist /Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/PFAudioLib.build/Release-iphoneos/PFAudioLib_Example.build/Objects-normal/arm64/PFAudioLib_Example.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @loader_path/Frameworks -miphoneos-version-min=9.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/PFAudioLib.build/Release-iphoneos/PFAudioLib_Example.build/Objects-normal/arm64/PFAudioLib_Example_lto.o -fobjc-arc -fobjc-link-runtime -ObjC -framework PFAudioLib -framework CoreGraphics -framework UIKit -framework Foundation -framework Pods_PFAudioLib_Example -Xlinker -dependency_info -Xlinker /Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/PFAudioLib.build/Release-iphoneos/PFAudioLib_Example.build/Objects-normal/arm64/PFAudioLib_Example_dependency_info.dat -o /Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/PFAudioLib.build/Release-iphoneos/PFAudioLib_Example.build/Objects-normal/arm64/PFAudioLib_Example
+ld: warning: 
+directory not found for option '-F/Users/hpf/Desktop/Mac Project/Cocoapod/PFAudioLib/Example/build/Release-iphoneos/PFAudioLib'
+ld: framework not found PFAudioLib
+clang: error
+: 
+linker command failed with exit code 1 (use -v to see invocation)
+
+
+Ld /Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/PFAudioLib.build/Release-iphoneos/PFAudioLib_Example.build/Objects-normal/armv7/PFAudioLib_Example normal armv7 (in target: PFAudioLib_Example)
+    cd /Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example
+    export IPHONEOS_DEPLOYMENT_TARGET=9.0
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk -L/Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/Release-iphoneos -F/Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/Release-iphoneos -F/Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/Release-iphoneos/PFAudioLib -filelist /Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/PFAudioLib.build/Release-iphoneos/PFAudioLib_Example.build/Objects-normal/armv7/PFAudioLib_Example.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @loader_path/Frameworks -miphoneos-version-min=9.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/PFAudioLib.build/Release-iphoneos/PFAudioLib_Example.build/Objects-normal/armv7/PFAudioLib_Example_lto.o -fobjc-arc -fobjc-link-runtime -ObjC -framework PFAudioLib -framework CoreGraphics -framework UIKit -framework Foundation -framework Pods_PFAudioLib_Example -Xlinker -dependency_info -Xlinker /Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/PFAudioLib.build/Release-iphoneos/PFAudioLib_Example.build/Objects-normal/armv7/PFAudioLib_Example_dependency_info.dat -o /Users/hpf/Desktop/Mac\ Project/Cocoapod/PFAudioLib/Example/build/PFAudioLib.build/Release-iphoneos/PFAudioLib_Example.build/Objects-normal/armv7/PFAudioLib_Example
+ld: warning: directory not found for option '-F/Users/hpf/Desktop/Mac Project/Cocoapod/PFAudioLib/Example/build/Release-iphoneos/PFAudioLib'
+ld: framework not found PFAudioLib
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
