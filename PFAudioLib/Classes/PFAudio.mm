@@ -12,8 +12,28 @@
 
 @implementation PFAudio
 
+static PFAudio *instance;
+
++ (instancetype) shareInstance{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [[self alloc] init];
+        [instance setDefaultAttr];
+    });
+    return instance;
+}
+
+- (void) setDefaultAttr {
+    _attrs = [[NSDictionary alloc] initWithObjectsAndKeys:
+              [NSNumber numberWithFloat: 8000],AVSampleRateKey, //采样率
+              [NSNumber numberWithInt: kAudioFormatLinearPCM],AVFormatIDKey,
+              [NSNumber numberWithInt:16],AVLinearPCMBitDepthKey,//采样位数 默认 16
+              [NSNumber numberWithInt: 2], AVNumberOfChannelsKey,//通道的数目
+              nil];
+}
+
 //转换amr到wav
-+ (BOOL) amr2Wav:(NSString *)amrPath isDeleteSourchFile:(BOOL)isDelete{
+- (BOOL) amr2Wav:(NSString *)amrPath isDeleteSourchFile:(BOOL)isDelete{
     NSString *outPath = [[amrPath stringByDeletingPathExtension] stringByAppendingString:@".wav"];
     BOOL isSuccess = DecodeAMRFileToWAVEFile([amrPath cStringUsingEncoding:NSASCIIStringEncoding], [outPath cStringUsingEncoding:NSASCIIStringEncoding]) ;
     if (isSuccess && isDelete) {
@@ -24,11 +44,11 @@
 }
 
 //转换wav到amr
-+ (BOOL) wav2Amr:(NSString *)wavPath isDeleteSourchFile:(BOOL)isDelete{
+- (BOOL) wav2Amr:(NSString *)wavPath isDeleteSourchFile:(BOOL)isDelete{
     // 输出路径
     NSString *outPath = [[wavPath stringByDeletingPathExtension] stringByAppendingString:@".amr"];
-    int rateKey = [[self GetAudioRecorderSettingDict][AVSampleRateKey] intValue];
-    int numOfChannelsKey = [[self GetAudioRecorderSettingDict][AVNumberOfChannelsKey] intValue];
+    int rateKey = [self.attrs[AVSampleRateKey] intValue];
+    int numOfChannelsKey = [self.attrs[AVNumberOfChannelsKey] intValue];
     int resultCode = EncodeWAVEFileToAMRFile([wavPath cStringUsingEncoding:NSASCIIStringEncoding], [outPath cStringUsingEncoding:NSASCIIStringEncoding], numOfChannelsKey, rateKey);
     if (resultCode != 0 && isDelete) {
         NSFileManager *fm = [NSFileManager defaultManager];
@@ -38,7 +58,7 @@
 }
 
 // pcm转wav
-+ (BOOL) pcm2Wav: (NSString *)pcmPath isDeleteSourchFile:(BOOL)isDelete{
+- (BOOL) pcm2Wav: (NSString *)pcmPath isDeleteSourchFile:(BOOL)isDelete{
     NSString *outPath = [[pcmPath stringByDeletingPathExtension] stringByAppendingString:@".wav"];
     NSData *data = [NSData dataWithContentsOfFile:pcmPath];
     BOOL isSuccess = [[self writeWavHead:data] writeToFile:outPath atomically:YES];
@@ -50,7 +70,7 @@
 }
 
 // pcm装amr
-+ (BOOL) pcm2Amr:(NSString *)pcmPath isDeleteSourchFile:(BOOL)isDelete{
+- (BOOL) pcm2Amr:(NSString *)pcmPath isDeleteSourchFile:(BOOL)isDelete{
     if ([self pcm2Wav:pcmPath isDeleteSourchFile:isDelete]) {
         NSString *wavPath = [[pcmPath stringByDeletingPathExtension] stringByAppendingString:@".wav"];
         return [self wav2Amr:wavPath isDeleteSourchFile:isDelete];
@@ -59,7 +79,7 @@
 }
 
 //pcm转mp3
-+ (BOOL) pcm2Mp3: (NSString *)pcmPath isDeleteSourchFile:(BOOL)isDelete
+- (BOOL) pcm2Mp3: (NSString *)pcmPath isDeleteSourchFile:(BOOL)isDelete
 {
     
     // 输入路径
@@ -88,8 +108,8 @@
         unsigned char mp3_buffer[MP3_SIZE];
         
         lame_t lame = lame_init();
-        int rateKey = [[self GetAudioRecorderSettingDict][AVSampleRateKey] intValue];
-        int numOfChannelsKey = [[self GetAudioRecorderSettingDict][AVNumberOfChannelsKey] intValue];
+        int rateKey = [self.attrs[AVSampleRateKey] intValue];//[self.attrs[AVSampleRateKey] intValue];
+        int numOfChannelsKey = [self.attrs[AVNumberOfChannelsKey] intValue];
         lame_set_in_samplerate(lame, rateKey);
         lame_set_VBR(lame, vbr_default);
         lame_init_params(lame);
@@ -100,9 +120,9 @@
             size_t size = (size_t)(2 * sizeof(short int));
             read = fread(pcm_buffer, size, PCM_SIZE, pcm);
             if (read == 0)
-                write = lame_encode_flush(lame, mp3_buffer, MP3_SIZE);
+            write = lame_encode_flush(lame, mp3_buffer, MP3_SIZE);
             else
-                write = lame_encode_buffer_interleaved(lame, pcm_buffer, (int)read, mp3_buffer, MP3_SIZE);
+            write = lame_encode_buffer_interleaved(lame, pcm_buffer, (int)read, mp3_buffer, MP3_SIZE);
             
             fwrite(mp3_buffer, write, 1, mp3);
             
@@ -133,21 +153,10 @@
     
 }
 
-//获取录音设置
-+ (NSDictionary*)GetAudioRecorderSettingDict{
-    NSDictionary *recordSetting = [[NSDictionary alloc] initWithObjectsAndKeys:
-                                   [NSNumber numberWithFloat: 8000],AVSampleRateKey, //采样率
-                                   [NSNumber numberWithInt: kAudioFormatLinearPCM],AVFormatIDKey,
-                                   [NSNumber numberWithInt:16],AVLinearPCMBitDepthKey,//采样位数 默认 16
-                                   [NSNumber numberWithInt: 2], AVNumberOfChannelsKey,//通道的数目
-                                   nil];
-    return recordSetting;
-}
-
 // 为pcm文件写入wav头
-+ (NSData*) writeWavHead:(NSData *)audioData {
-    long sampleRate = [[self GetAudioRecorderSettingDict][AVSampleRateKey] longValue];
-    long numOfChannelsKey = [[self GetAudioRecorderSettingDict][AVNumberOfChannelsKey] longValue];
+- (NSData*) writeWavHead:(NSData *)audioData {
+    long sampleRate = [self.attrs[AVSampleRateKey] longValue];
+    long numOfChannelsKey = [self.attrs[AVNumberOfChannelsKey] longValue];
     Byte waveHead[44];
     waveHead[0] = 'R';
     waveHead[1] = 'I';
