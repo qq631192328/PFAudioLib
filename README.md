@@ -8,6 +8,8 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+Demo请参照PFAudioLib/TEST_SWIFT
 ### 设置好源文件的音频属性
 ```
 首先设置好音频文件的属性
