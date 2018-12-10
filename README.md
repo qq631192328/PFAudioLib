@@ -7,7 +7,8 @@
 
 ## Introduction
 
-音频文件格式的转换工具
+iOS音频文件格式的转换工具    
+支持pcm、mp3、wav、amr格式之间的相互转化
 
 ## Example
 
