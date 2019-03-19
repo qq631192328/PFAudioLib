@@ -12,7 +12,7 @@ import PFAudioLib
 
 class ViewController: UIViewController {
     
-    let recordFilePath = "/Users/hpf/Desktop/哈哈.pcm"
+    let recordFilePath = "/Users/hpf/Desktop/test.pcm"
     
     // setting : 录音的设置项
     // 录音参数设置(不需要掌握, 一些固定的配置)
@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         AVSampleRateKey: NSNumber(value: 8000),
         // 通道数
         AVNumberOfChannelsKey: NSNumber(value: 2),
+        // BPS
+        AVLinearPCMBitDepthKey: NSNumber(value: 16),
         // 录音质量
         AVEncoderAudioQualityKey: NSNumber(value: Int32(AVAudioQuality.min.rawValue))
     ]

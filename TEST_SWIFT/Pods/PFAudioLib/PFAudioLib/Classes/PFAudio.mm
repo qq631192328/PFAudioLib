@@ -47,7 +47,7 @@ static PFAudio *instance;
 - (BOOL) wav2Amr:(NSString *)wavPath isDeleteSourchFile:(BOOL)isDelete{
     // 输出路径
     NSString *outPath = [[wavPath stringByDeletingPathExtension] stringByAppendingString:@".amr"];
-    int rateKey = [self.attrs[AVSampleRateKey] intValue];
+    int rateKey = [self.attrs[AVLinearPCMBitDepthKey] intValue];
     int numOfChannelsKey = [self.attrs[AVNumberOfChannelsKey] intValue];
     int resultCode = EncodeWAVEFileToAMRFile([wavPath cStringUsingEncoding:NSASCIIStringEncoding], [outPath cStringUsingEncoding:NSASCIIStringEncoding], numOfChannelsKey, rateKey);
     if (resultCode != 0 && isDelete) {
